@@ -17,6 +17,7 @@ RUN pip install drf_social_oauth2
 RUN pip install python-decouple
 RUN pip install django-cors-headers
 RUN pip install django-urls
+RUN pipenv install npm
 
 # RUN pipenv npm install @mui/material 
 
